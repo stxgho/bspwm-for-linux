@@ -4,7 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
-bspc config border_width         2
+bspc config border_width         3
 bspc config window_gap          12
 
 bspc config split_ratio          0.52
@@ -16,7 +16,7 @@ bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-feh --bg-fill /home/ghostx/Descargas/wallpapers/hqUDbm.jpg
+feh --bg-fill /home/ghostx/Descargas/wallpapers/11.jpg
 xsetroot -cursor_name left_ptr &
 wmname LG3D &
 ~/.config/polybar/./launch.sh
